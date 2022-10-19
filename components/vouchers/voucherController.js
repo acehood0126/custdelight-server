@@ -1,4 +1,4 @@
-const voucherServcie = require("./voucherService");
+const voucherServcie = require("./voucherService.js");
 
 const defaultVoucher = {
   voucherType: 1,

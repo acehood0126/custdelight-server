@@ -1,4 +1,4 @@
-const User = require("./userDal");
+const User = require("./userDal.js");
 
 const createUser = async (data) => {
   console.log("🚀 ~ file: userService.js ~ line 4 ~ createUser ~ data", data);

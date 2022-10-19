@@ -1,4 +1,4 @@
-const Membership = require("./memberShipDal");
+const Membership = require("./memberShipDal.js");
 
 const createMembership = async (data) => {
   const membership = new Membership(data);

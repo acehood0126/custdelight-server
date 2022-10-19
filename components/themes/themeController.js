@@ -1,4 +1,4 @@
-const themeService = require("./themeService");
+const themeService = require("./themeService.js");
 
 const createTheme = async () => {
   const theme = await themeService.createTheme({});

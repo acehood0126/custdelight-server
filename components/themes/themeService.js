@@ -1,4 +1,4 @@
-const Theme = require("./themeDal");
+const Theme = require("./themeDal.js");
 
 const createTheme = async (data) => {
   const theme = new Theme(data);

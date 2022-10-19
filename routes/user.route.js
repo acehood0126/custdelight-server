@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
 
-const userShema = require("../models/User");
+const userShema = require("../models/User.js");
 //Create User
 router.route(
   "/api/signup".post((req, res, next) => {

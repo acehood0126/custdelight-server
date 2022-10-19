@@ -1,4 +1,4 @@
-const Module = require("./moduleDal");
+const Module = require("./moduleDal.js");
 
 const createModule = async (data) => {
   const module = new Module(data);

@@ -1,4 +1,4 @@
-const membershipServcie = require("./memberShipService");
+const membershipServcie = require("./memberShipService.js");
 
 const createMembership = async () => {
   const membership = await membershipServcie.createMembership({});

@@ -1,10 +1,10 @@
-const widgetService = require("./widgetService");
-const moduleController = require("../modules/moduleController");
-const membershipController = require("../memberships/membershipController");
-const voucherController = require("../vouchers/voucherController");
-const settingController = require("../settings/settingController");
-const themeController = require("../themes/themeController");
-const userService = require("../users/userService");
+const widgetService = require("./widgetService.js");
+const moduleController = require("../modules/moduleController.js");
+const membershipController = require("../memberships/membershipController.js");
+const voucherController = require("../vouchers/voucherController.js");
+const settingController = require("../settings/settingController.js");
+const themeController = require("../themes/themeController.js");
+const userService = require("../users/userService.js");
 
 const createWidget = async () => {
   const module = await moduleController.createModule({});

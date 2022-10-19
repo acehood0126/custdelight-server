@@ -1,6 +1,6 @@
-const moduleService = require("./moduleService");
-const membershipController = require("../memberships/membershipController");
-const voucherController = require("../vouchers/voucherController");
+const moduleService = require("./moduleService.js");
+const membershipController = require("../memberships/membershipController.js");
+const voucherController = require("../vouchers/voucherController.js");
 
 const createModule = async () => {
   const memebership = await membershipController.createMembership();

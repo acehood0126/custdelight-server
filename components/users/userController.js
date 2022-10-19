@@ -1,12 +1,12 @@
-const userService = require("./userService");
-const widgetService = require("../widgets/widgetService");
-const widgetController = require("../widgets/widgetController");
-const { ERROR } = require("../../enum");
-const moduleController = require("../modules/moduleController");
-const membershipController = require("../memberships/membershipController");
-const voucherController = require("../vouchers/voucherController");
-const themeController = require("../themes/themeController");
-const settingController = require("../settings/settingController");
+const userService = require("./userService.js");
+const widgetService = require("../widgets/widgetService.js");
+const widgetController = require("../widgets/widgetController.js");
+const { ERROR } = require("../../enum.js");
+const moduleController = require("../modules/moduleController.js");
+const membershipController = require("../memberships/membershipController.js");
+const voucherController = require("../vouchers/voucherController.js");
+const themeController = require("../themes/themeController.js");
+const settingController = require("../settings/settingController.js");
 
 const createUser = async (data) => {
   if (!data) {

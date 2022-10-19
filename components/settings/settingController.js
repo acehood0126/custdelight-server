@@ -1,4 +1,4 @@
-const settingService = require("./settingService");
+const settingService = require("./settingService.js");
 
 const createSetting = async () => {
   const setting = await settingService.createSetting({});

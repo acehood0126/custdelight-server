@@ -1,4 +1,4 @@
-const Setting = require("./settingDal");
+const Setting = require("./settingDal.js");
 
 const createSetting = async (data) => {
   const setting = new Setting(data);
