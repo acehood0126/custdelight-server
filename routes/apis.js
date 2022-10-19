@@ -1,11 +1,11 @@
 const express = require("express");
 
-const authAPI = require("../components/auth/authApi");
-const userController = require("../components/users/userController");
-const widgetAPI = require("../components/widgets/widgetApi");
-const widgetController = require("../components/widgets/widgetController");
+const authAPI = require("../components/auth/authApi.js");
+const userController = require("../components/users/userController.js");
+const widgetAPI = require("../components/widgets/widgetApi.js");
+const widgetController = require("../components/widgets/widgetController.js");
 
-const auth = require("../middleware/auth");
+const auth = require("../middleware/auth.js");
 
 const apis = express.Router();
 

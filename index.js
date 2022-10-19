@@ -13,8 +13,8 @@ const routes = require("./routes/routes.js");
 // Connect Database
 connectDB();
 
-// app.use(express.urlencoded({ extended: false }));
-// app.use(express.static(path.join(__dirname, "build")));
+app.use(express.urlencoded({ extended: false }));
+app.use(express.static(path.join(__dirname, "build")));
 routes(app);
 
 // app.use("/*", function (req, res) {

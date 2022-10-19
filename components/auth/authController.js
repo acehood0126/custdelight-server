@@ -1,12 +1,12 @@
 const jwt = require("jsonwebtoken");
 const config = require("config");
-const userService = require("../users/userService");
-const userController = require("../users/userController");
+const userService = require("../users/userService.js");
+const userController = require("../users/userController.js");
 const bcrypt = require("bcryptjs");
-const { ERROR } = require("../../enum");
+const { ERROR } = require("../../enum.js");
 
 const { check, validationResult } = require("express-validator");
-const widgetController = require("../widgets/widgetController");
+const widgetController = require("../widgets/widgetController.js");
 
 const signin = async (req, res) => {
   const { email, password } = req.body;
