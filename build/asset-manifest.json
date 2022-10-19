@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69b8bf95.css",
+    "main.js": "/static/js/main.3855bc2b.js",
+    "static/js/787.bd050f45.chunk.js": "/static/js/787.bd050f45.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/white_logo_transparent_background.svg": "/static/media/white_logo_transparent_background.14f847a4c29037e22b16dba1572e07bd.svg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/Logo.svg": "/static/media/Logo.7aeeac9841922aa288ea51acb0202b77.svg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/dash_picture.png": "/static/media/dash_picture.d5e3729344110d3d57a1.png",
+    "static/media/Stripe_wordmark.svg": "/static/media/Stripe_wordmark.ad14a7ab8f145f39c29a2158f2a89a7c.svg",
+    "static/media/Path1.svg": "/static/media/Path1.056eb448429e9c667196f777f68a2cf2.svg",
+    "static/media/Path2.svg": "/static/media/Path2.eb7573730b566b6ec4c604a75a699f56.svg",
+    "static/media/Google-Analytics-Logo.svg": "/static/media/Google-Analytics-Logo.8a77c2dd490c51c5b5ac6739a671a4c4.svg",
+    "static/media/ic_google_logo.svg": "/static/media/ic_google_logo.d70b7e7e2a8b4409d3b8efd1a9bf1caf.svg",
+    "index.html": "/index.html",
+    "static/media/ic_fb_logo.svg": "/static/media/ic_fb_logo.6bfc1efc762f08b292c1d5c7af02632a.svg",
+    "static/media/Vector.svg": "/static/media/Vector.882e9a1889662b86e22ee6a08246290f.svg",
+    "main.69b8bf95.css.map": "/static/css/main.69b8bf95.css.map",
+    "main.3855bc2b.js.map": "/static/js/main.3855bc2b.js.map",
+    "787.bd050f45.chunk.js.map": "/static/js/787.bd050f45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69b8bf95.css",
+    "static/js/main.3855bc2b.js"
+  ]
+}
